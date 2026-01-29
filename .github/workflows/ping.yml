@@ -12,6 +12,6 @@ jobs:
       - name: Ping Render
         run: |
           for i in 1 2 3; do
-            curl -s https://saka-vbuq.onrender.com > /dev/null
+            curl -s https://telegrambot-1-fjs6.onrender.com > /dev/null
             sleep 20
           done
